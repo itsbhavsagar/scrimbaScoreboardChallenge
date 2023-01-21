@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+#main {
+  background: rgb(24, 41, 90);
+}
+
+h3 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  align-items: center;
+}
+
+button {
+  background: none;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  color: rgb(143, 159, 204);
+  border: 2px solid rgb(143, 159, 204);
+  border-radius: 5px;
+}
+
+button:hover {
+  color: white;
+  cursor: pointer;
+  background-color: rgb(57, 165, 105);
+}
+
+#homeScore {
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  background: black;
+  font-size: 90px;
+  width: 120px;
+  margin: 20px;
+  margin-top: -40px;
+  color: rgba(249, 79, 109, 1);
+  border-radius: 5px;
+}
+
+#guestScore {
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  background: black;
+  font-size: 90px;
+  width: 120px;
+  margin: 20px;
+  margin-top: -40px;
+  color: rgba(249, 79, 109, 1);
+  border-radius: 5px;
+}
+
+.add-score {
+  color: rgb(143, 159, 204);
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football ScroeBoard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body>
+    <section id="main">
+    <div class="container">
+      <div class="column">
+        <h3>HOME</h3>
+        <h2 id="homeScore">0</h2>
+
+        <div class="add-score">
+          <button id="home-score-btn-1" onclick="addScore1()">+1</button>
+          <button id="home-score-btn-2" onclick="addScore2()">+2</button>
+          <button id="home-score-btn-3" onclick="addScore3()">+3</button>
+        </div>
+      </div>
+      <div>
+        <h3>GUEST</h3>
+        <h2 id="guestScore">0</h2>
+        <div class="add-score">
+          <button id="guest-score-btn-1" onclick="addOne()">+1</button>
+          <button id="guest-score-btn-2" onclick="addTwo()">+2</button>
+          <button id="guest-score-btn-3" onclick="addThree()">+3</button>
+        </div>
+      </div>
+    </div>
+    <div>
+    </div>
+  </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
